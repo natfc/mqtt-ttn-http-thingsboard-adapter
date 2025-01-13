@@ -1,0 +1,40 @@
+{
+  "common": {
+    "broker": "eu1.cloud.thethings.network",
+    "port": 1883,
+    "client_id": "shared_client_id",
+    "password": "NNSXS.B4234PYW6KVFMMEFV43RZRMOCKZSL7KF2I2FW5Q.UCBPJE75SDKP2AVWKQC4OANWNYHPA63PLND6L2JAGJQ6BLI5NMIQ"
+  },
+  "clients": [
+    {
+      "device": "Arduino MKR WAN 1310 app",
+      "username": "upvdisca-arduino-mkrwan-13xx-app@ttn",
+      "topic": "#",
+      "api_endpoint": "http://eu.thingsboard.cloud/api/v1/v2ulgy7c2gstwrqkiyl9/telemetry"
+    },
+    {
+      "device": "Dragino LSN50 T&H outdoor sensor",
+      "username": "upvdisca-dragino-lsn50-app@ttn",
+      "topic": "#",
+      "api_endpoint": "http://eu.thingsboard.cloud/api/v1/e817mi813dqsjm2bqg82/telemetry"
+    },
+    {
+      "device": "Dragino LDS02 door sensor",
+      "username": "upvdisca-dragino-lds02-app@ttn",
+      "topic": "#",
+      "api_endpoint": "http://eu.thingsboard.cloud/api/v1/0eyd9bxe4vv2zhxghxjo/telemetry"
+    },
+    {
+      "device": "Milesight EM320-TH sensor app",
+      "username": "upvdisca-mlsght-em320-th-app@ttn",
+      "topic": "#",
+      "api_endpoint": "http://eu.thingsboard.cloud/api/v1/oety0i8xlql7dqcrxsan/telemetry"
+    },
+    {
+      "device": "Dragino LGT-92 tracker app",
+      "username": "upvdisca-dragino-lgt92-app@ttn",
+      "topic": "#",
+      "api_endpoint": "http://eu.thingsboard.cloud/api/v1/7rjnumjzrg3lt895grp2/telemetry"
+    }
+  ]
+}
